@@ -1,0 +1,12 @@
+#Sí es null le aplica un valor por defecto , deben ser del mismo tipo , se tienen que igualar "casteando" con CAST('campo' as 'tipo') , 'Valor por defecto' );
+#
+#videoclub=# select coalesce(datadev::text,'sense data') from lloguer;
+#videoclub=# select coalesce(cast(datadev as text),'sense data') from lloguer;
+
+/* ******** 	S O C I O S ************** */
+
+INSERT INTO SOCI VALUES (1, 'mcapdevila',md5('manel'),'12345678Z','Manel','CAPDEVILA',null,'SARDENYA 12-20','932982824','H');
+INSERT INTO SOCI VALUES (2,'arobles',md5('anna'),null,'anna','Robles',null,'GRAN VIA 300','933102376','D');
+INSERT INTO SOCI VALUES (3,'aandreu',md5('ariadna'),null,'ariadna','Andreu',null,'DIAGONAL 450','933457698','H');
+INSERT INTO SOCI VALUES (4,'nboixaderas',md5('nil'),null,'nil','boixaderas',null,'VIA LAIETANA 123','933452200','H');
+INSERT INTO SOCI VALUES (5,'vfernandez',md5('valeria'),null,'valeria','fernandez',null,'MARINA 233','933152304','D');
